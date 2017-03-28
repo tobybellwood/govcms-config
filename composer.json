@@ -1,12 +1,13 @@
 {
-  "name": "govcms/config",
-  "description": "Configuration for the govCMS Drupal distribution",
-  "type": "project",
-  "license": "GPL-2.0+",
-  "minimum-stability": "dev",
-  "prefer-stable": true,
-  "conflict": {
-    "drupal/core": "7.*"
-  },
-  "require": {}
+    "name": "govcms/config",
+    "description": "Configuration for the govCMS Drupal distribution",
+    "keywords": ["govCMS"],
+    "type": "project",
+    "license": "GPL-2.0+",
+    "require": {},
+    "conflict": {
+        "drupal/core": "7.*"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
