@@ -5,28 +5,22 @@
     "type": "project",
     "license": "GPL-2.0+",
     "require": {
+        "asm89/twig-lint": "^1.0.2",
         "composer/installers": "^1.2.0",
-        "cweagans/composer-patches": "^1.6.0",
+        "composer-plugin-api": "^1.0.0",
+        "doctrine/common": "^2.5",
+        "oomphinc/composer-installers-extender": "^1.1",
+        "dflydev/dot-access-data": "^1.1.0",
+        "drupal/coder": "^8.2.8",
+        "grasmash/drupal-security-warning": "^1.0.0",
+        "grasmash/yaml-cli": "^1.0.0",
+        "phing/phing": "^2.15.0",
+        "php": ">=5.6",
+        "phpunit/phpunit": "^4.8",
+        "squizlabs/php_codesniffer": "^2.7",
+        "symfony/yaml": "^2.8.11",
+        "symfony/console": "^2.8.11",
         "wikimedia/composer-merge-plugin": "^1.4.0"
-    },
-    "extra": {
-        "composer-exit-on-patch-failure": true,
-        "packagist.drupal-composer.org": {
-            "discover-make-files": false
-        },
-        "enable-patching": true,
-        "merge-plugin": {
-            "require": [
-                "composer.required.json"
-            ],
-            "include": [],
-            "recurse": true,
-            "merge-dev": true,
-            "merge-extra": true,
-            "merge-extra-deep": true,
-            "merge-scripts": true,
-            "replace": true
-        }
     },
     "conflict": {
         "drupal/core": "7.*"
