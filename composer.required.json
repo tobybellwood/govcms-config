@@ -23,7 +23,7 @@
         }
     ],
     "require": {
-        "acquia/lightning": "^2.0.5",
+        "acquia/lightning": "^2.0.6",
         "drupal/address": "^1.0@RC",
         "drupal/admin_toolbar": "^1.18",
         "drupal/adminimal_admin_toolbar": "^1.3",
