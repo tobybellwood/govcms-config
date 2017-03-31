@@ -5,7 +5,9 @@
     "type": "project",
     "license": "GPL-2.0+",
     "require": {
+        "composer/composer": "^1.4",
         "composer/installers": "^1.2.0",
+        "composer-plugin-api": "^1.0.0",
         "cweagans/composer-patches": "^1.6.0",
         "wikimedia/composer-merge-plugin": "^1.4.0"
     },
