@@ -150,7 +150,8 @@
         "enable-patching": true,
         "patches": {
             "drupal/core": {
-                "Clear Twig caches on deploys": "https://www.drupal.org/files/issues/no_reliable_method-2752961-29.patch"
+                "Clear Twig caches on deploys": "https://www.drupal.org/files/issues/no_reliable_method-2752961-29.patch",
+                "Improve the Views integration for DateRange fields": "https://www.drupal.org/files/issues/0001-Issue-2786577-Improve-the-Views-integration-for-Date_3.patch"
             }
         }
     },
