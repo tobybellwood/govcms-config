@@ -14,7 +14,8 @@
     },
     "autoload": {
         "psr-4": {
-            "govCMS\\Config\\": "src/"
+            "govCMS\\Config\\": "src/",
+            "govCMS\\Config\\Deploy\\": "src/Deploy/"
         }
     },
     "extra": {
