@@ -1,6 +1,6 @@
 {
     "name": "govcms/config",
-    "description": "Configuration for the govCMS Drupal distribution",
+    "description": "[Experimental] Configuration for a govCMS Drupal 8 distribution",
     "keywords": ["govCMS"],
     "type": "composer-plugin",
     "license": "GPL-2.0+",
